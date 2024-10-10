@@ -9,13 +9,13 @@ import pic3 from "../../public/pic3.png";
 const HomePage = () => {
     return <main className="mb-[]">
     <h1 className="text-black text-4xl mt-10"><b><u><label>Smartphone Reviews:</label></u></b></h1>
-    <div style={{ alignItems: 'center' }} className="flex justify-between ">
-        <Image src={pic1} alt="smartphone pic" style={{ width: '400px', height: '300px' }}/>
-        <Image src={pic2} alt="smartphone pic" style={{ width: '400px', height: '300px' }}/>
-        <Image src={pic3} alt="smartphone pic" style={{ width: '400px', height: '300px' }} />
+    <div style={{ alignItems: 'center' }} className="flex justify-between mt-10">
+        <Image src={pic1} alt="smartphone pic" style={{ width: '400px', height: '300px'}}  className="rounded-[150px]"/>
+        <Image src={pic2} alt="smartphone pic" style={{ width: '400px', height: '300px' }} className="rounded-[150px]"/>
+        <Image src={pic3} alt="smartphone pic" style={{ width: '400px', height: '300px' }} className="rounded-[150px]"/>
         
       </div>
-      <center><p className="text-black"> Recently, several major brands launched exciting new smartphones that cater to diverse consumer needs, these newly introduced smartphones are equiped with amazing features like AI, <br></br> Tri-Folding, Enchanced-Camera etc here are some great release below</p></center>
+      <center><p className="text-black mt-10"> Recently, several major brands launched exciting new smartphones that cater to diverse consumer needs, these newly introduced smartphones are equiped with amazing features like AI, <br></br> Tri-Folding, Enchanced-Camera etc here are some great release below</p></center>
       <br></br>
       <br></br>
 
