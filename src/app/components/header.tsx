@@ -9,8 +9,9 @@ const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-black via-white to-orange-700  h-[70px] w-full flex shadow sticky top-0 z-10 justify-between items-center px-4 md:px-8">
+    <nav className="bg-gradient-to-r from-black  to-orange-700  h-[70px] w-full flex shadow sticky top-0 z-10 justify-between items-center pr-5 md:px-1">
       <div className="flex items-center">
+
         <Image
           className=" w-20 h-16" 
           src={logo}
@@ -18,26 +19,27 @@ const Header = () => {
           width={112} 
           height={56} 
         />
+        
         <h1 className="text-red-500 text-2xl md:text-4xl ml-2"><label>SmartPhone Reviews</label></h1>
       </div>
       <div className="relative md:flex hidden justify-evenly items-center w-1/2">
-        <Link href="https://web-peach-two-84.vercel.app/">
-          <button className="text-black outline-none focus:text-green-600 active:text-green-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
+        <Link href="http://localhost:3000">
+          <button className="text-white outline-none focus:text-orange-400  active:text-black font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
             Home
           </button>
         </Link>
         <Link href="../about">
-          <button className="text-black outline-none focus:text-green-600 active:text-green-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
+          <button className="text-white outline-none focus:text-orange-400  active:text-black font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
             About
           </button>
         </Link>
-        <button className="text-black outline-none focus:text-green-600 active:text-green-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
+        <button className="text-white outline-none focus:text-orange-400  active:text-black font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
           <FiPhoneCall />&nbsp; Contact-Us: +92-309-023-542
         </button>
       </div>
      
       <button
-        className="md:hidden text-gray-500 focus:outline-none"
+        className="md:hidden text-white focus:outline-none"
         onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
       >
         {isMobileMenuOpen ? '✖' : '☰'}
@@ -45,17 +47,17 @@ const Header = () => {
       
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-10">
-          <Link href="https://web-peach-two-84.vercel.app/">
-            <button className="w-full text-gray-500 text-left px-5 py-2.5">
+          <Link href="http://localhost:3000">
+            <button className="w-full text-gray-600 text-left px-5 py-2.5">
               Home
             </button>
           </Link>
           <Link href="../about">
-            <button className="w-full text-gray-500 text-left px-5 py-2.5">
+            <button className="w-full text-gray-600 text-left px-5 py-2.5">
               About Us
             </button>
           </Link>
-          <button className="w-full text-gray-500 text-left px-5 py-2.5">
+          <button className="w-full text-gray-600 text-left px-5 py-2.5">
             <FiPhoneCall />&nbsp; Contact: +92-309-023-542
           </button>
         </div>
