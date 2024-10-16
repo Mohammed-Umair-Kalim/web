@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <h1 className="text-black text-1xl mt-10">
+      <h1 className="text-white text-1xl mt-10">
         <b>About Us</b>
         <br></br>
         Welcome to SmartPhone Reviews, your trusted source for comprehensive
