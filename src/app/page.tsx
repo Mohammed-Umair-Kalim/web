@@ -7,19 +7,19 @@ import pic2 from "../../public/pic2.png";
 import pic3 from "../../public/pic3.png";
 
 const HomePage = () => {
-    return <main className="mb-[]">
-    <h1 className="text-black text-4xl mt-10"><b><u><label>Smartphone Reviews:</label></u></b></h1>
-    <div style={{ alignItems: 'center' }} className="flex justify-between mt-10">
-        <Image src={pic1} alt="smartphone pic" style={{ width: '400px', height: '300px'}}  className="rounded-[150px]"/>
-        <Image src={pic2} alt="smartphone pic" style={{ width: '400px', height: '300px' }} className="rounded-[150px]"/>
-        <Image src={pic3} alt="smartphone pic" style={{ width: '400px', height: '300px' }} className="rounded-[150px]"/>
-        
-      </div>
-      <center><p className="text-black mt-10"> Recently, several major brands launched exciting new smartphones that cater to diverse consumer needs, these newly introduced smartphones are equiped with amazing features like AI, <br></br> Tri-Folding, Enchanced-Camera etc here are some great release below</p></center>
+    return <main>
+    <h1 className="text-[#f1f1f1] text-4xl mt-10 ml-5"><b><u><label>Smartphone Reviews:</label></u></b></h1>
+    <div style={{ alignItems: 'center' }} className="flex justify-evenly mt-10 flex-wrap">
+    <Image src={pic1} alt="smartphone pic" style={{ width: '30%', height: 'auto'}} className="rounded-[150px] m-2" />
+    <Image src={pic2} alt="smartphone pic" style={{ width: '30%', height: 'auto' }} className="rounded-[150px] m-2" />
+    <Image src={pic3} alt="smartphone pic" style={{ width: '30%', height: 'auto' }} className="rounded-[150px] m-2" />
+</div>
+
+      <center><p className="text-white mt-10"> Recently, several major brands launched exciting new smartphones that cater to diverse consumer needs, these newly introduced smartphones are equiped with amazing features like AI, <br></br> Tri-Folding, Enchanced-Camera etc here are some great release below</p></center>
       <br></br>
       <br></br>
 
-      <div className="text-black">
+      <div className="text-[#ffffff]">
 
       <h2 className="text-3xl"><u><b>&nbsp; Latest SmartPhone Releases: &nbsp;</b></u></h2><br></br>
 
