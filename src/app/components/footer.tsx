@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex justify-center items-center">
           <FaYoutube className="w-12 h-12 rounded-full p-2" />
           <p className="text-xl font-semibold pl-2">
-            <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            <a href="https://www.youtube.com/@governorsindhinitaitive/videos" target="_blank">Youtube</a>
             </p>
         </div>
 
