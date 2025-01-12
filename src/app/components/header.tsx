@@ -23,7 +23,7 @@ const Header = () => {
         <h1 className="text-red-500 text-2xl md:text-4xl ml-2"><label>SmartPhone Reviews</label></h1>
       </div>
       <div className="relative md:flex hidden justify-evenly items-center w-1/2">
-        <Link href="https://web-peach-two-84.vercel.app/">
+        <Link href="/">
           <button className="text-white outline-none focus:text-orange-400  active:text-black font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex">
             Home
           </button>
@@ -47,7 +47,7 @@ const Header = () => {
       
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-10">
-          <Link href="https://web-peach-two-84.vercel.app/">
+          <Link href="/">
             <button className="w-full text-gray-600 text-left px-5 py-2.5">
               Home
             </button>
